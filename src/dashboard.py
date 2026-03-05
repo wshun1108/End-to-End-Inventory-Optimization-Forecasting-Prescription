@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 
-### Enter streamlit run ./src/dashboard.py in Terminal to launch the dashboard
+### streamlit run ./src/dashboard.py
 
 # --- 1. Basic Page Configuration ---
 # Removed the 'page_icon' argument to remove the chart icon from the browser tab

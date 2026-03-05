@@ -12,7 +12,7 @@ def create_features():
 
     # select target store and category
     target_store = 'CA_1'
-    target_cat = 'HOBBIES'
+    target_cat = 'FOODS'
 
     df_sales = df_sales[df_sales['store_id'] == target_store]
     df_sales = df_sales[df_sales['cat_id'] == target_cat]
